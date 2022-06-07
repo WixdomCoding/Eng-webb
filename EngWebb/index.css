@@ -1,0 +1,268 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.redleaf {
+    width: 35%;
+    height: auto;
+}
+
+body {
+    background-color: rgb(217, 217, 217);
+}
+
+.intro {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: 5px;
+    border: solid red 6px;
+}
+
+.bodyback {
+    text-align: top;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 5%;
+    padding-right: 100px;
+    padding-left: 100px;
+    /* background-color: red; */
+}
+
+.daniel {
+    margin-top: -25px;
+}
+
+.jonathan {
+    margin-top: -25px;
+}
+
+.mehedi {
+    margin-top: -25px;
+}
+
+.container {
+    background-image: url(bilder/landscape2.png);
+    border-radius: 9px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+  }
+
+.mapel {
+    border: solid red 6px;
+    border-radius: 8px;
+    padding: 1px;
+}
+
+.oi {
+    border: solid red 6px;
+    border-radius: 8px;
+    padding: 1px;
+}
+
+.haha {
+    margin-left: 25px;
+    border: solid red 6px;
+    border-radius: 8px;
+    padding: 1px;}
+
+.ahah {
+    margin-right: 25px;
+    border: solid red 6px;
+    border-radius: 8px;
+    padding: 1px;
+}
+
+.text {
+    font-size: 20px;
+    padding: 5%;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-family: "Roboto";
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border: solid red 6px;
+}
+
+.text2 {
+    font-size: 20px;
+    padding: 5%;
+    color: black;
+    font-family: "Roboto";
+    border-radius: 8px;
+    background-color: rgba(255,255,255);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    border: solid red 6px;
+}
+
+.falls {
+    border: solid red 6px;
+    border-radius: 8px;
+    padding: 1px;
+}
+
+.text3 {
+    font-size: 20px;
+    padding: 5%;
+    color: black;
+    border-radius: 8px;
+    font-family: "Roboto";
+    background-color: rgba(255,255,255);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border: solid red 6px;
+}
+
+.one {
+    margin-right: 45px;
+}
+
+.two {
+    margin-left: 45px;
+}
+
+.centered {
+    margin-top: -10px;
+    font-size: 50px;
+    font-family: "Century Gothic", serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.centered2 {
+    margin-top: 50px;
+    font-size: 65px;
+    font-family: "Century Gothic", serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+    .centered {
+        font-size: 230%;
+    }
+    .centered2 {
+        font-size: 280%;
+    }
+    .redleaf {
+        width: auto;
+        height: 10%;
+    }
+    .text {
+        margin-top: 200px;
+    }
+    .aleft {
+        width: 50px;
+    }
+    .aright {
+        width: 50px;
+    }
+    .mapel {
+        width: 75%;
+        height: 75%;
+    }
+    .falls {
+        width: 75%;
+        height: 75%;
+    }
+    .oi {
+        width: 75%;
+        height: 75%;
+    }
+    .ahah {
+        width: 75%;
+        height: 75%;
+    }
+    .haha {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(224, 16, 16);
+    border-radius: 13px;
+    border-style: inset;
+    
+}
+
+.aright {
+    margin-right: 2%;
+}
+
+.aleft {
+    margin-left: 2%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+a.ha:hover , a.ha:active{
+    font-size: 150%;
+}
+
+
+
+
+footer a {
+    /* text-align: center;
+    padding: 3px;
+    background-color: rgb(235, 19, 19);
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    width: auto;
+    height: auto; */
+    
+    /* border: solid 2px white; */
+    border-radius: 13px;
+    border-style: inset;
+    margin-bottom: -2px;
+    position: fixed;
+    left: 0.5;
+    bottom: 0;
+    font-size: 25px;
+    width: 98.4%;
+    height: 9%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+a.test:hover , a.test:active{
+    font-size: 150%;
+}
